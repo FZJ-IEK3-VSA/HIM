@@ -1,0 +1,1717 @@
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 10:32:43
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43954 rows and 52030 columns
+Presolve time: 0.10s
+Presolved: 10628 rows, 20744 columns, 41473 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.063e+04
+ Factor NZ  : 1.541e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 2.992e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.59857695e+07 -2.82252549e+04  3.22e+03 1.09e+00  5.28e+04     0s
+   1   5.95650782e+07  2.96803468e+05  9.19e+02 5.04e-01  3.87e+03     0s
+   2   5.85054553e+06  5.78632262e+05  2.96e+01 1.67e-13  2.62e+02     0s
+   3   2.02418731e+06  1.04490241e+06  5.14e+00 2.93e-13  4.81e+01     0s
+   4   1.41932521e+06  1.26838445e+06  7.11e-01 2.45e-13  7.26e+00     0s
+   5   1.32929441e+06  1.30310470e+06  7.58e-02 3.27e-13  1.26e+00     0s
+   6   1.31917226e+06  1.31427824e+06  1.43e-02 2.25e-13  2.35e-01     0s
+   7   1.31673444e+06  1.31639268e+06  1.28e-03 2.21e-13  1.64e-02     0s
+   8   1.31647069e+06  1.31645984e+06  4.20e-05 2.20e-13  5.19e-04     0s
+
+Barrier performed 8 iterations in 0.20 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 375 iterations and 0.20 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 10:48:11
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43910 rows and 51948 columns
+Presolve time: 0.09s
+Presolved: 10672 rows, 20826 columns, 41637 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.067e+04
+ Factor NZ  : 1.544e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 2.995e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+Barrier performed 0 iterations in 0.17 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 379 iterations and 0.17 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 10:55:07
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43928 rows and 51969 columns
+Presolve time: 0.09s
+Presolved: 10654 rows, 20805 columns, 41595 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.065e+04
+ Factor NZ  : 1.543e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 2.996e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+Barrier performed 0 iterations in 0.20 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 373 iterations and 0.20 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 10:57:58
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43928 rows and 51969 columns
+Presolve time: 0.12s
+Presolved: 10654 rows, 20805 columns, 41595 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.065e+04
+ Factor NZ  : 1.543e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 2.996e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.63128220e+07 -2.87915925e+04  3.22e+03 1.09e+00  5.28e+04     0s
+   1   5.98966228e+07  2.97816175e+05  9.19e+02 5.04e-01  3.87e+03     0s
+   2   5.86920042e+06  5.79622681e+05  2.96e+01 4.76e-13  2.62e+02     0s
+
+Barrier performed 2 iterations in 0.22 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 373 iterations and 0.22 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 10:59:17
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 178611 rows, 258770 columns and 585322 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132628 rows and 142067 columns
+Presolve time: 0.36s
+Presolved: 45983 rows, 116703 columns, 233389 nonzeros
+
+Ordering time: 0.02s
+
+Barrier statistics:
+ AA' NZ     : 5.837e+04
+ Factor NZ  : 6.466e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.06395300e+06 -2.20711909e+02  3.09e+02 3.11e-04  4.50e+01     1s
+   1   9.55981061e+05  2.19795854e+03  1.32e+02 3.63e-03  8.72e+00     1s
+   2   1.53309790e+05  5.82351176e+03  1.50e+01 1.67e-15  1.26e+00     1s
+   3   7.44801552e+04  1.03318769e+04  5.84e+00 3.83e-15  5.50e-01     1s
+   4   4.74337716e+04  1.23358807e+04  2.75e+00 3.33e-15  3.01e-01     1s
+   5   4.02785968e+04  1.31162393e+04  2.15e+00 4.00e-15  2.33e-01     1s
+   6   3.18063247e+04  1.38119634e+04  1.36e+00 3.77e-15  1.54e-01     1s
+   7   2.52789114e+04  1.46777196e+04  7.74e-01 3.44e-15  9.09e-02     1s
+   8   2.27451167e+04  1.53723109e+04  5.46e-01 3.00e-15  6.32e-02     1s
+   9   2.22189187e+04  1.55489956e+04  4.99e-01 3.33e-15  5.72e-02     1s
+  10   1.87746735e+04  1.56958913e+04  2.13e-01 4.11e-15  2.64e-02     1s
+  11   1.78416802e+04  1.58872702e+04  1.23e-01 3.28e-15  1.67e-02     1s
+  12   1.73600079e+04  1.61468314e+04  7.96e-02 3.55e-15  1.04e-02     1s
+  13   1.69815243e+04  1.63291012e+04  4.10e-02 3.33e-15  5.59e-03     1s
+  14   1.68261854e+04  1.64249816e+04  2.59e-02 3.61e-15  3.44e-03     1s
+  15   1.67365055e+04  1.64684040e+04  1.72e-02 4.80e-15  2.30e-03     1s
+  16   1.66477835e+04  1.64971252e+04  8.70e-03 4.55e-15  1.29e-03     1s
+  17   1.66109878e+04  1.65096001e+04  5.25e-03 4.64e-15  8.69e-04     1s
+  18   1.65794381e+04  1.65223763e+04  2.39e-03 5.12e-15  4.89e-04     1s
+  19   1.65631680e+04  1.65384528e+04  9.99e-04 3.50e-15  2.12e-04     1s
+  20   1.65532237e+04  1.65466126e+04  2.32e-04 3.39e-15  5.66e-05     1s
+  21   1.65510990e+04  1.65489726e+04  9.06e-05 7.99e-15  1.82e-05     1s
+  22   1.65504033e+04  1.65493487e+04  4.87e-05 3.66e-15  9.04e-06     1s
+  23   1.65497634e+04  1.65495370e+04  1.09e-05 2.89e-15  1.94e-06     1s
+  24   1.65495571e+04  1.65495549e+04  1.14e-07 4.44e-15  1.94e-08     1s
+  25   1.65495549e+04  1.65495549e+04  2.63e-12 3.44e-15  3.30e-14     1s
+
+Barrier solved model in 25 iterations and 1.31 seconds
+Optimal objective 1.65495549e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4602555e-13                 1s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4602555e-13      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   20567    1.6549555e+04   0.000000e+00   0.000000e+00      2s
+   20567    1.6549555e+04   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 20567 iterations and 1.65 seconds
+Optimal objective  1.654955490e+04
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 10:59:45
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 178809 rows, 259034 columns and 585916 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 7e+01]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132836 rows and 142285 columns
+Presolve time: 0.32s
+Presolved: 45973 rows, 116749 columns, 233415 nonzeros
+
+Ordering time: 0.02s
+
+Barrier statistics:
+ AA' NZ     : 5.836e+04
+ Factor NZ  : 6.467e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.26020663e+05 -2.98401402e+02  4.88e+01 2.00e-02  1.06e+01     0s
+   1   1.33938202e+05  2.45381181e+02  7.98e+00 1.33e-02  1.45e+00     1s
+   2   2.78187404e+04  5.81285572e+02  1.17e+00 5.41e-04  2.40e-01     1s
+   3   7.28270402e+03  1.14301999e+03  2.34e-01 8.88e-16  5.28e-02     1s
+   4   3.49416296e+03  1.54777874e+03  6.39e-02 9.99e-16  1.67e-02     1s
+   5   2.58741761e+03  1.78446431e+03  2.44e-02 6.66e-16  6.89e-03     1s
+   6   2.29545445e+03  1.89004061e+03  1.16e-02 2.22e-15  3.48e-03     1s
+   7   2.17442410e+03  1.94591740e+03  6.50e-03 4.66e-15  1.96e-03     1s
+   8   2.07803962e+03  1.98103961e+03  2.13e-03 2.66e-15  8.32e-04     1s
+   9   2.05094535e+03  1.99774711e+03  1.03e-03 3.55e-15  4.56e-04     1s
+  10   2.03571842e+03  2.01296264e+03  4.55e-04 5.11e-15  1.95e-04     1s
+  11   2.02766812e+03  2.01789057e+03  1.77e-04 5.55e-15  8.38e-05     1s
+  12   2.02339658e+03  2.02047837e+03  3.78e-05 3.77e-15  2.50e-05     1s
+  13   2.02202532e+03  2.02151894e+03  3.38e-06 2.00e-15  4.34e-06     1s
+  14   2.02189695e+03  2.02165128e+03  1.24e-06 1.55e-15  2.11e-06     1s
+  15   2.02182450e+03  2.02175317e+03  2.48e-07 8.88e-16  6.11e-07     1s
+  16   2.02180690e+03  2.02177810e+03  9.34e-08 8.88e-16  2.47e-07     1s
+  17   2.02180218e+03  2.02178902e+03  3.77e-08 6.66e-16  1.13e-07     1s
+  18   2.02179830e+03  2.02179675e+03  1.15e-07 6.66e-16  1.33e-08     1s
+  19   2.02179692e+03  2.02179678e+03  1.62e-08 7.77e-16  1.21e-09     1s
+  20   2.02179685e+03  2.02179682e+03  3.52e-09 6.66e-16  2.17e-10     1s
+  21   2.02179683e+03  2.02179682e+03  6.90e-10 3.55e-15  1.74e-11     1s
+
+Barrier solved model in 21 iterations and 1.19 seconds
+Optimal objective 2.02179683e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4921397e-13                 1s
+
+       5 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4921397e-13      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   22105    2.0217968e+03   0.000000e+00   0.000000e+00      1s
+   22105    2.0217968e+03   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22105 iterations and 1.59 seconds
+Optimal objective  2.021796824e+03
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 11:23:39
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43934 rows and 51993 columns
+Presolve time: 0.10s
+Presolved: 10648 rows, 20781 columns, 41547 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.065e+04
+ Factor NZ  : 1.544e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 2.997e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.62181653e+07 -2.85993754e+04  3.22e+03 1.09e+00  5.28e+04     0s
+   1   5.97792612e+07  2.95710154e+05  9.19e+02 5.04e-01  3.88e+03     0s
+
+Barrier performed 1 iterations in 0.19 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 375 iterations and 0.19 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 11:25:00
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178611 rows, 258770 columns and 585322 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132628 rows and 142067 columns
+Presolve time: 0.39s
+Presolved: 45983 rows, 116703 columns, 233389 nonzeros
+
+Ordering time: 0.02s
+
+Barrier statistics:
+ AA' NZ     : 5.837e+04
+ Factor NZ  : 6.466e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.06394066e+06 -2.20711154e+02  3.09e+02 3.11e-04  4.50e+01     1s
+   1   9.56000718e+05  2.19802003e+03  1.32e+02 3.63e-03  8.72e+00     1s
+   2   1.53276273e+05  5.82327821e+03  1.50e+01 3.93e-14  1.26e+00     1s
+   3   7.44228567e+04  1.03325352e+04  5.83e+00 1.87e-14  5.49e-01     1s
+   4   4.74034405e+04  1.23694915e+04  2.75e+00 1.20e-14  3.00e-01     1s
+   5   4.03455795e+04  1.31450684e+04  2.15e+00 9.77e-15  2.33e-01     1s
+   6   3.18669181e+04  1.38208691e+04  1.37e+00 7.99e-15  1.55e-01     1s
+   7   2.53843085e+04  1.46838540e+04  7.84e-01 5.33e-15  9.17e-02     1s
+   8   2.28081937e+04  1.53683309e+04  5.52e-01 3.03e-15  6.38e-02     2s
+   9   2.22405469e+04  1.55567629e+04  5.01e-01 3.11e-15  5.73e-02     2s
+  10   1.91030189e+04  1.56137474e+04  2.42e-01 4.05e-15  2.99e-02     2s
+  11   1.81274259e+04  1.59196867e+04  1.49e-01 3.28e-15  1.89e-02     2s
+  12   1.75181126e+04  1.61519105e+04  9.46e-02 4.55e-15  1.17e-02     2s
+  13   1.69739683e+04  1.63215639e+04  3.77e-02 4.11e-15  5.59e-03     3s
+  14   1.68480193e+04  1.63896878e+04  2.55e-02 4.61e-15  3.93e-03     3s
+  15   1.67434278e+04  1.64413656e+04  1.57e-02 4.05e-15  2.59e-03     3s
+  16   1.66646097e+04  1.64713362e+04  8.52e-03 5.47e-15  1.66e-03     3s
+  17   1.66265002e+04  1.65018023e+04  5.39e-03 4.45e-15  1.07e-03     3s
+  18   1.65924975e+04  1.65181808e+04  2.73e-03 5.54e-15  6.37e-04     4s
+
+Barrier performed 18 iterations in 3.50 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 73917 iterations and 3.52 seconds
+Optimal objective  1.654966036e+04
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 11:25:31
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178809 rows, 259034 columns and 585916 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 7e+01]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132836 rows and 142285 columns
+Presolve time: 0.38s
+Presolved: 45973 rows, 116749 columns, 233415 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.836e+04
+ Factor NZ  : 6.467e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.26018717e+05 -2.98400905e+02  4.88e+01 2.00e-02  1.06e+01     0s
+   1   1.33941331e+05  2.45380436e+02  7.98e+00 1.33e-02  1.45e+00     1s
+   2   2.78103123e+04  5.81289294e+02  1.17e+00 5.41e-04  2.40e-01     1s
+   3   7.28257398e+03  1.14310771e+03  2.34e-01 2.39e-15  5.28e-02     1s
+   4   3.48854755e+03  1.54776655e+03  6.37e-02 1.89e-15  1.67e-02     1s
+   5   2.58636231e+03  1.78407343e+03  2.44e-02 1.11e-15  6.88e-03     1s
+   6   2.29546596e+03  1.88971636e+03  1.16e-02 3.33e-15  3.48e-03     1s
+   7   2.17430389e+03  1.94572863e+03  6.50e-03 3.11e-15  1.96e-03     1s
+   8   2.07810732e+03  1.98091855e+03  2.14e-03 4.22e-15  8.33e-04     1s
+   9   2.05097496e+03  1.99772913e+03  1.04e-03 4.22e-15  4.57e-04     1s
+  10   2.03569000e+03  2.01288366e+03  4.56e-04 4.88e-15  1.96e-04     1s
+  11   2.02761840e+03  2.01779602e+03  1.78e-04 2.22e-15  8.42e-05     1s
+  12   2.02329465e+03  2.02036813e+03  3.73e-05 3.55e-15  2.51e-05     1s
+  13   2.02194430e+03  2.02142555e+03  3.57e-06 1.78e-15  4.45e-06     1s
+  14   2.02180895e+03  2.02156271e+03  1.27e-06 1.11e-15  2.11e-06     1s
+  15   2.02173449e+03  2.02166369e+03  2.43e-07 1.11e-15  6.07e-07     1s
+  16   2.02171754e+03  2.02168873e+03  8.35e-08 6.66e-16  2.47e-07     1s
+  17   2.02171277e+03  2.02169943e+03  3.76e-08 6.66e-16  1.14e-07     1s
+  18   2.02170894e+03  2.02170737e+03  6.43e-08 6.66e-16  1.34e-08     1s
+  19   2.02170754e+03  2.02170740e+03  2.61e-08 8.88e-16  1.26e-09     1s
+  20   2.02170747e+03  2.02170744e+03  7.27e-08 8.33e-16  1.84e-10     1s
+  21   2.02170744e+03  2.02170744e+03  1.51e-09 8.60e-16  3.98e-12     1s
+
+Barrier solved model in 21 iterations and 1.20 seconds
+Optimal objective 2.02170744e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4988011e-13                 1s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4988011e-13      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   22101    2.0217074e+03   0.000000e+00   0.000000e+00      1s
+   22101    2.0217074e+03   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22101 iterations and 1.58 seconds
+Optimal objective  2.021707444e+03
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 12:28:39
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43934 rows and 51993 columns
+Presolve time: 0.18s
+Presolved: 10648 rows, 20781 columns, 41547 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.065e+04
+ Factor NZ  : 1.544e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 2.997e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.62181653e+07 -2.85993754e+04  3.22e+03 1.09e+00  5.28e+04     0s
+   1   5.97792612e+07  2.95710154e+05  9.19e+02 5.04e-01  3.88e+03     0s
+   2   5.86153499e+06  5.77546116e+05  2.96e+01 1.74e-13  2.62e+02     0s
+   3   2.02622862e+06  1.04433410e+06  5.14e+00 3.12e-13  4.81e+01     0s
+
+Barrier performed 3 iterations in 0.26 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 375 iterations and 0.26 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 12:30:06
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178611 rows, 258770 columns and 585322 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132628 rows and 142067 columns
+Presolve time: 0.40s
+Presolved: 45983 rows, 116703 columns, 233389 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.837e+04
+ Factor NZ  : 6.466e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.06394066e+06 -2.20711154e+02  3.09e+02 3.11e-04  4.50e+01     1s
+   1   9.56000718e+05  2.19802003e+03  1.32e+02 3.63e-03  8.72e+00     1s
+   2   1.53276273e+05  5.82327821e+03  1.50e+01 3.93e-14  1.26e+00     1s
+   3   7.44228567e+04  1.03325352e+04  5.83e+00 1.87e-14  5.49e-01     1s
+   4   4.74034405e+04  1.23694915e+04  2.75e+00 1.20e-14  3.00e-01     1s
+   5   4.03455795e+04  1.31450684e+04  2.15e+00 9.77e-15  2.33e-01     1s
+   6   3.18669181e+04  1.38208691e+04  1.37e+00 7.99e-15  1.55e-01     1s
+   7   2.53843085e+04  1.46838540e+04  7.84e-01 5.33e-15  9.17e-02     1s
+   8   2.28081937e+04  1.53683309e+04  5.52e-01 3.03e-15  6.38e-02     1s
+   9   2.22405469e+04  1.55567629e+04  5.01e-01 3.11e-15  5.73e-02     1s
+  10   1.91030189e+04  1.56137474e+04  2.42e-01 4.05e-15  2.99e-02     1s
+  11   1.81274259e+04  1.59196867e+04  1.49e-01 3.28e-15  1.89e-02     1s
+  12   1.75181126e+04  1.61519105e+04  9.46e-02 4.55e-15  1.17e-02     1s
+  13   1.69739683e+04  1.63215639e+04  3.77e-02 4.11e-15  5.59e-03     1s
+  14   1.68480193e+04  1.63896878e+04  2.55e-02 4.61e-15  3.93e-03     1s
+  15   1.67434278e+04  1.64413656e+04  1.57e-02 4.05e-15  2.59e-03     1s
+  16   1.66646097e+04  1.64713362e+04  8.52e-03 5.47e-15  1.66e-03     1s
+  17   1.66265002e+04  1.65018023e+04  5.39e-03 4.45e-15  1.07e-03     1s
+  18   1.65924975e+04  1.65181808e+04  2.73e-03 5.54e-15  6.37e-04     1s
+  19   1.65712575e+04  1.65368005e+04  1.30e-03 3.89e-15  2.95e-04     1s
+  20   1.65539023e+04  1.65440897e+04  2.12e-04 3.77e-15  8.41e-05     1s
+  21   1.65510882e+04  1.65483027e+04  5.82e-05 3.89e-15  2.39e-05     1s
+  22   1.65502803e+04  1.65493262e+04  2.37e-05 4.00e-15  8.18e-06     1s
+  23   1.65498331e+04  1.65495280e+04  5.53e-06 3.89e-15  2.61e-06     1s
+  24   1.65496731e+04  1.65496581e+04  2.84e-07 3.00e-15  1.29e-07     1s
+  25   1.65496604e+04  1.65496604e+04  7.49e-11 3.52e-15  6.71e-12     2s
+
+Barrier solved model in 25 iterations and 1.52 seconds
+Optimal objective 1.65496604e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4513737e-13                 2s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 2s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4513737e-13      2s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   20566    1.6549660e+04   0.000000e+00   0.000000e+00      2s
+   20566    1.6549660e+04   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 20566 iterations and 1.89 seconds
+Optimal objective  1.654966036e+04
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 12:30:37
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178809 rows, 259034 columns and 585916 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 7e+01]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132836 rows and 142285 columns
+Presolve time: 0.37s
+Presolved: 45973 rows, 116749 columns, 233415 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.836e+04
+ Factor NZ  : 6.467e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.26018717e+05 -2.98400905e+02  4.88e+01 2.00e-02  1.06e+01     1s
+   1   1.33941331e+05  2.45380436e+02  7.98e+00 1.33e-02  1.45e+00     1s
+   2   2.78103123e+04  5.81289294e+02  1.17e+00 5.41e-04  2.40e-01     1s
+   3   7.28257398e+03  1.14310771e+03  2.34e-01 2.39e-15  5.28e-02     1s
+   4   3.48854755e+03  1.54776655e+03  6.37e-02 1.89e-15  1.67e-02     1s
+   5   2.58636231e+03  1.78407343e+03  2.44e-02 1.11e-15  6.88e-03     1s
+   6   2.29546596e+03  1.88971636e+03  1.16e-02 3.33e-15  3.48e-03     1s
+   7   2.17430389e+03  1.94572863e+03  6.50e-03 3.11e-15  1.96e-03     1s
+   8   2.07810732e+03  1.98091855e+03  2.14e-03 4.22e-15  8.33e-04     1s
+   9   2.05097496e+03  1.99772913e+03  1.04e-03 4.22e-15  4.57e-04     1s
+  10   2.03569000e+03  2.01288366e+03  4.56e-04 4.88e-15  1.96e-04     1s
+  11   2.02761840e+03  2.01779602e+03  1.78e-04 2.22e-15  8.42e-05     1s
+  12   2.02329465e+03  2.02036813e+03  3.73e-05 3.55e-15  2.51e-05     1s
+  13   2.02194430e+03  2.02142555e+03  3.57e-06 1.78e-15  4.45e-06     1s
+  14   2.02180895e+03  2.02156271e+03  1.27e-06 1.11e-15  2.11e-06     1s
+  15   2.02173449e+03  2.02166369e+03  2.43e-07 1.11e-15  6.07e-07     1s
+  16   2.02171754e+03  2.02168873e+03  8.35e-08 6.66e-16  2.47e-07     1s
+  17   2.02171277e+03  2.02169943e+03  3.76e-08 6.66e-16  1.14e-07     1s
+  18   2.02170894e+03  2.02170737e+03  6.43e-08 6.66e-16  1.34e-08     1s
+  19   2.02170754e+03  2.02170740e+03  2.61e-08 8.88e-16  1.26e-09     1s
+  20   2.02170747e+03  2.02170744e+03  7.27e-08 8.33e-16  1.84e-10     1s
+  21   2.02170744e+03  2.02170744e+03  1.51e-09 8.60e-16  3.98e-12     1s
+
+Barrier solved model in 21 iterations and 1.33 seconds
+Optimal objective 2.02170744e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4988011e-13                 1s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 2s
+       0 PPushes remaining with PInf 0.0000000e+00                 2s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4988011e-13      2s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   22101    2.0217074e+03   0.000000e+00   0.000000e+00      2s
+   22101    2.0217074e+03   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22101 iterations and 1.69 seconds
+Optimal objective  2.021707444e+03
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 15:11:53
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43953 rows and 52033 columns
+Presolve time: 0.11s
+Presolved: 10629 rows, 20741 columns, 41467 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.063e+04
+ Factor NZ  : 1.546e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 3.003e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+Barrier performed 0 iterations in 0.20 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 378 iterations and 0.20 seconds
+Optimal objective  1.317908719e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 15:13:13
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178531 rows, 258681 columns and 585127 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132563 rows and 142008 columns
+Presolve time: 0.40s
+Presolved: 45968 rows, 116673 columns, 233331 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.835e+04
+ Factor NZ  : 6.464e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.06366649e+06 -2.20654421e+02  3.09e+02 3.11e-04  4.50e+01     0s
+   1   9.54380862e+05  2.19772127e+03  1.32e+02 3.62e-03  8.71e+00     1s
+   2   1.53208554e+05  5.81893490e+03  1.49e+01 6.77e-15  1.26e+00     1s
+   3   7.42234327e+04  1.03319206e+04  5.79e+00 4.39e-15  5.48e-01     1s
+   4   4.72879679e+04  1.23186677e+04  2.73e+00 3.00e-15  3.00e-01     1s
+   5   4.00993143e+04  1.31200497e+04  2.12e+00 3.66e-15  2.31e-01     1s
+   6   3.17224896e+04  1.37992494e+04  1.35e+00 3.77e-15  1.54e-01     1s
+   7   2.52157682e+04  1.46715962e+04  7.65e-01 3.39e-15  9.04e-02     1s
+   8   2.26532083e+04  1.53668003e+04  5.36e-01 2.72e-15  6.25e-02     1s
+   9   2.21266140e+04  1.55457816e+04  4.89e-01 3.55e-15  5.64e-02     1s
+  10   1.87165915e+04  1.56852537e+04  2.07e-01 4.05e-15  2.60e-02     1s
+  11   1.78338697e+04  1.58783285e+04  1.21e-01 6.11e-15  1.68e-02     1s
+  12   1.73289948e+04  1.61406242e+04  7.66e-02 3.44e-15  1.02e-02     1s
+  13   1.68709314e+04  1.62536502e+04  2.78e-02 3.77e-15  5.29e-03     1s
+  14   1.67803523e+04  1.64007325e+04  1.88e-02 4.16e-15  3.25e-03     1s
+  15   1.66998636e+04  1.64416226e+04  1.20e-02 5.41e-15  2.21e-03     1s
+  16   1.66406124e+04  1.64721683e+04  6.98e-03 5.88e-15  1.44e-03     1s
+  17   1.66129267e+04  1.64953965e+04  4.57e-03 5.55e-15  1.01e-03     1s
+  18   1.65880830e+04  1.65144778e+04  2.67e-03 5.22e-15  6.31e-04     1s
+  19   1.65719776e+04  1.65339641e+04  1.49e-03 3.70e-15  3.26e-04     1s
+  20   1.65556051e+04  1.65431239e+04  3.69e-04 4.88e-15  1.07e-04     1s
+  21   1.65517817e+04  1.65467884e+04  1.34e-04 4.42e-15  4.28e-05     1s
+  22   1.65503241e+04  1.65480867e+04  5.08e-05 4.27e-15  1.92e-05     1s
+  23   1.65495861e+04  1.65490101e+04  1.33e-05 3.28e-15  4.94e-06     1s
+  24   1.65493689e+04  1.65492384e+04  3.29e-06 3.39e-15  1.12e-06     1s
+  25   1.65492824e+04  1.65492806e+04  5.06e-08 3.41e-15  1.54e-08     1s
+  26   1.65492807e+04  1.65492807e+04  4.87e-12 3.39e-15  1.57e-11     2s
+
+Barrier solved model in 26 iterations and 1.69 seconds
+Optimal objective 1.65492807e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.7571708e-13                 2s
+
+       3 PPushes remaining with PInf 0.0000000e+00                 2s
+       0 PPushes remaining with PInf 0.0000000e+00                 2s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7571708e-13      2s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   20578    1.6549281e+04   0.000000e+00   0.000000e+00      2s
+   20578    1.6549281e+04   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 20578 iterations and 2.03 seconds
+Optimal objective  1.654928073e+04
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 15:13:41
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178729 rows, 258945 columns and 585721 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 7e+01]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132754 rows and 142189 columns
+Presolve time: 0.42s
+Presolved: 45975 rows, 116756 columns, 233431 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.836e+04
+ Factor NZ  : 6.465e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.26048552e+05 -2.98632263e+02  4.88e+01 2.00e-02  1.06e+01     1s
+   1   1.33956981e+05  2.45278558e+02  7.98e+00 1.33e-02  1.45e+00     1s
+   2   2.78228181e+04  5.81189518e+02  1.17e+00 5.41e-04  2.40e-01     1s
+   3   7.31183726e+03  1.14292799e+03  2.35e-01 1.28e-15  5.30e-02     1s
+   4   3.49449105e+03  1.54749702e+03  6.40e-02 7.77e-16  1.67e-02     1s
+   5   2.58810671e+03  1.78495752e+03  2.45e-02 3.55e-15  6.89e-03     1s
+   6   2.29698518e+03  1.89022102e+03  1.17e-02 3.33e-15  3.49e-03     1s
+   7   2.17491221e+03  1.94622848e+03  6.53e-03 3.11e-15  1.96e-03     1s
+   8   2.07823443e+03  1.98142841e+03  2.14e-03 4.44e-15  8.30e-04     1s
+   9   2.05096611e+03  1.99801092e+03  1.04e-03 3.11e-15  4.54e-04     1s
+  10   2.03569045e+03  2.01299106e+03  4.55e-04 2.66e-15  1.95e-04     1s
+  11   2.02770928e+03  2.01790229e+03  1.80e-04 2.66e-15  8.41e-05     1s
+  12   2.02317122e+03  2.02030184e+03  3.53e-05 2.00e-15  2.46e-05     1s
+  13   2.02217337e+03  2.02156138e+03  6.29e-06 2.44e-15  5.24e-06     1s
+  14   2.02193789e+03  2.02168349e+03  2.20e-06 1.11e-15  2.18e-06     1s
+  15   2.02186370e+03  2.02173134e+03  1.05e-06 1.11e-15  1.13e-06     1s
+  16   2.02181173e+03  2.02176889e+03  3.15e-07 1.33e-15  3.67e-07     1s
+  17   2.02179396e+03  2.02178031e+03  9.52e-08 8.88e-16  1.17e-07     1s
+  18   2.02178665e+03  2.02178328e+03  2.77e-08 1.55e-15  2.88e-08     1s
+  19   2.02178369e+03  2.02178350e+03  3.72e-08 8.88e-16  1.57e-09     1s
+  20   2.02178355e+03  2.02178355e+03  1.99e-09 7.49e-16  2.67e-11     1s
+
+Barrier solved model in 20 iterations and 1.27 seconds
+Optimal objective 2.02178355e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4066526e-13                 1s
+
+       4 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4066526e-13      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   22092    2.0217835e+03   0.000000e+00   0.000000e+00      1s
+   22092    2.0217835e+03   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22092 iterations and 1.62 seconds
+Optimal objective  2.021783550e+03
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 15:42:52
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 54582 rows, 72774 columns and 163740 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 43924 rows and 51978 columns
+Presolve time: 0.12s
+Presolved: 10658 rows, 20796 columns, 41577 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.066e+04
+ Factor NZ  : 1.547e+05 (roughly 14 MBytes of memory)
+ Factor Ops : 3.006e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.60718468e+07 -2.84076136e+04  3.22e+03 1.12e+00  5.28e+04     0s
+   1   5.96299657e+07  2.96691664e+05  9.19e+02 5.04e-01  3.87e+03     0s
+   2   5.86515243e+06  5.78520533e+05  2.97e+01 1.29e-11  2.62e+02     0s
+   3   2.04570684e+06  1.04502128e+06  5.27e+00 2.13e-12  4.90e+01     0s
+   4   1.42225907e+06  1.26746773e+06  7.31e-01 2.70e-13  7.43e+00     0s
+   5   1.32961314e+06  1.30321512e+06  7.83e-02 2.38e-13  1.26e+00     0s
+   6   1.31911925e+06  1.31379000e+06  1.41e-02 2.31e-13  2.55e-01     0s
+
+Barrier performed 6 iterations in 0.22 seconds
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with primal simplex
+Solved in 371 iterations and 0.22 seconds
+Optimal objective  1.316460521e+06
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 15:44:12
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178531 rows, 258681 columns and 585127 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 5e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132563 rows and 142008 columns
+Presolve time: 0.39s
+Presolved: 45968 rows, 116673 columns, 233331 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.835e+04
+ Factor NZ  : 6.464e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.06357021e+06 -2.20648521e+02  3.09e+02 3.11e-04  4.50e+01     1s
+   1   9.55805925e+05  2.19825321e+03  1.32e+02 3.63e-03  8.72e+00     1s
+   2   1.53269577e+05  5.82384370e+03  1.50e+01 1.25e-14  1.26e+00     1s
+   3   7.44606292e+04  1.03322382e+04  5.84e+00 5.33e-15  5.50e-01     1s
+   4   4.74255117e+04  1.23636873e+04  2.75e+00 3.77e-15  3.01e-01     1s
+   5   4.03519452e+04  1.31378030e+04  2.15e+00 3.22e-15  2.33e-01     1s
+   6   3.18649137e+04  1.38201655e+04  1.37e+00 4.00e-15  1.55e-01     1s
+   7   2.53744173e+04  1.46829972e+04  7.83e-01 3.16e-15  9.16e-02     1s
+   8   2.28130982e+04  1.53661359e+04  5.53e-01 2.94e-15  6.38e-02     1s
+   9   2.22427782e+04  1.55555424e+04  5.01e-01 3.16e-15  5.73e-02     1s
+  10   1.95962899e+04  1.56020493e+04  2.82e-01 4.00e-15  3.42e-02     1s
+  11   1.88134838e+04  1.58641761e+04  2.09e-01 5.44e-15  2.53e-02     1s
+  12   1.84334249e+04  1.59873655e+04  1.76e-01 4.83e-15  2.10e-02     1s
+  13   1.75647353e+04  1.62282846e+04  9.82e-02 3.28e-15  1.15e-02     1s
+  14   1.70425850e+04  1.63483166e+04  4.70e-02 3.91e-15  5.95e-03     1s
+  15   1.68721787e+04  1.64042597e+04  2.93e-02 4.39e-15  4.01e-03     1s
+  16   1.67619507e+04  1.64574566e+04  1.84e-02 4.22e-15  2.61e-03     1s
+  17   1.66744382e+04  1.64948789e+04  1.01e-02 4.00e-15  1.54e-03     1s
+  18   1.66250200e+04  1.65158989e+04  5.95e-03 4.41e-15  9.35e-04     1s
+  19   1.65840449e+04  1.65306528e+04  2.57e-03 4.25e-15  4.58e-04     1s
+  20   1.65617454e+04  1.65429104e+04  8.18e-04 3.89e-15  1.61e-04     1s
+  21   1.65564460e+04  1.65471840e+04  4.51e-04 3.89e-15  7.94e-05     1s
+  22   1.65522433e+04  1.65485307e+04  1.82e-04 4.33e-15  3.18e-05     1s
+  23   1.65504721e+04  1.65490999e+04  6.95e-05 3.72e-15  1.18e-05     1s
+  24   1.65494810e+04  1.65492868e+04  7.32e-06 3.50e-15  1.66e-06     1s
+  25   1.65493319e+04  1.65493285e+04  1.25e-07 3.43e-15  2.88e-08     1s
+  26   1.65493288e+04  1.65493288e+04  9.19e-12 3.44e-15  2.93e-11     1s
+
+Barrier solved model in 26 iterations and 1.40 seconds
+Optimal objective 1.65493288e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.7349663e-13                 2s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 2s
+       0 PPushes remaining with PInf 0.0000000e+00                 2s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.7349663e-13      2s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   20578    1.6549329e+04   0.000000e+00   0.000000e+00      2s
+   20578    1.6549329e+04   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 20578 iterations and 1.86 seconds
+Optimal objective  1.654932882e+04
+
+Gurobi 7.0.2 (win64) logging started 09/12/18 15:44:40
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter Heuristics to 0.5
+   Prev: 0.05  Min: 0.0  Max: 1.0  Default: 0.05
+Optimize a model with 178729 rows, 258945 columns and 585721 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-01, 7e+01]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 132754 rows and 142189 columns
+Presolve time: 0.39s
+Presolved: 45975 rows, 116756 columns, 233431 nonzeros
+
+Ordering time: 0.02s
+
+Barrier statistics:
+ AA' NZ     : 5.836e+04
+ Factor NZ  : 6.465e+05 (roughly 70 MBytes of memory)
+ Factor Ops : 1.570e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.26033360e+05 -2.98628382e+02  4.88e+01 2.00e-02  1.06e+01     0s
+   1   1.33955381e+05  2.45289612e+02  7.98e+00 1.33e-02  1.45e+00     1s
+   2   2.78132105e+04  5.81223878e+02  1.17e+00 5.41e-04  2.40e-01     1s
+   3   7.28170197e+03  1.14308959e+03  2.34e-01 9.99e-16  5.28e-02     1s
+   4   3.49291878e+03  1.54777590e+03  6.39e-02 1.55e-15  1.67e-02     1s
+   5   2.58694257e+03  1.78445676e+03  2.44e-02 1.33e-15  6.88e-03     1s
+   6   2.29624387e+03  1.88988122e+03  1.16e-02 2.55e-15  3.48e-03     1s
+   7   2.17451747e+03  1.94594154e+03  6.51e-03 4.00e-15  1.96e-03     1s
+   8   2.07827739e+03  1.98113377e+03  2.15e-03 3.33e-15  8.33e-04     1s
+   9   2.05099519e+03  1.99788466e+03  1.04e-03 4.00e-15  4.55e-04     1s
+  10   2.03552096e+03  2.01288881e+03  4.51e-04 4.88e-15  1.94e-04     1s
+  11   2.02759187e+03  2.01780729e+03  1.79e-04 2.89e-15  8.39e-05     1s
+  12   2.02307511e+03  2.02019048e+03  3.51e-05 2.44e-15  2.47e-05     1s
+  13   2.02207380e+03  2.02146473e+03  6.09e-06 4.00e-15  5.22e-06     1s
+  14   2.02184291e+03  2.02159375e+03  2.11e-06 2.89e-15  2.14e-06     1s
+  15   2.02177030e+03  2.02164504e+03  1.01e-06 1.11e-15  1.07e-06     1s
+  16   2.02172344e+03  2.02167740e+03  3.77e-07 7.77e-16  3.94e-07     1s
+  17   2.02170271e+03  2.02168828e+03  1.03e-07 1.55e-15  1.24e-07     1s
+  18   2.02170263e+03  2.02168829e+03  9.72e-07 1.55e-15  1.23e-07     1s
+  19   2.02170094e+03  2.02169071e+03  6.41e-07 6.66e-16  8.76e-08     1s
+  20   2.02169488e+03  2.02169230e+03  1.86e-07 7.77e-16  2.21e-08     1s
+  21   2.02169316e+03  2.02169234e+03  5.76e-08 7.46e-16  7.05e-09     1s
+  22   2.02169239e+03  2.02169236e+03  4.88e-09 7.82e-16  2.58e-10     1s
+  23   2.02169236e+03  2.02169236e+03  3.53e-11 7.63e-16  4.85e-13     1s
+
+Barrier solved model in 23 iterations and 1.25 seconds
+Optimal objective 2.02169236e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.4022117e-13                 1s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.4022117e-13      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   22094    2.0216924e+03   0.000000e+00   0.000000e+00      1s
+   22094    2.0216924e+03   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22094 iterations and 1.61 seconds
+Optimal objective  2.021692360e+03
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 08:57:47
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 60487 rows, 80644 columns and 181447 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-03, 2e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 47854 rows and 56062 columns
+Presolve time: 0.18s
+Presolved: 12633 rows, 24582 columns, 49143 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 1.263e+04
+ Factor NZ  : 1.831e+05 (roughly 16 MBytes of memory)
+ Factor Ops : 3.547e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.93784823e+07  4.76842336e+04  6.48e+02 2.22e+00  5.44e+03     0s
+   1   1.05479714e+07  1.54757445e+05  1.93e+02 1.56e-01  4.87e+02     0s
+   2   3.47435752e+06  2.88536119e+05  5.08e+01 7.11e-14  1.35e+02     0s
+   3   2.05285140e+06  4.79459159e+05  2.63e+01 2.03e-13  6.74e+01     0s
+   4   1.45750662e+06  6.09724643e+05  1.51e+01 2.27e-12  3.64e+01     0s
+   5   8.92138258e+05  6.35028516e+05  3.05e+00 1.17e-12  1.08e+01     0s
+   6   8.10210632e+05  6.98564010e+05  1.62e+00 1.02e-12  4.69e+00     0s
+   7   7.64254824e+05  7.18229633e+05  7.51e-01 6.82e-13  1.94e+00     0s
+   8   7.31905401e+05  7.24177916e+05  1.23e-01 1.46e-11  3.27e-01     0s
+   9   7.25178783e+05  7.25051220e+05  2.92e-04 8.67e-12  5.22e-03     0s
+  10   7.25097504e+05  7.25096664e+05  4.11e-08 1.59e-12  3.41e-05     0s
+  11   7.25096891e+05  7.25096891e+05  1.95e-09 2.24e-13  7.53e-10     0s
+
+Barrier solved model in 11 iterations and 0.36 seconds
+Optimal objective 7.25096891e+05
+
+Crossover log...
+
+       0 DPushes remaining with DInf 2.9798386e-12                 0s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 0s
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.9798386e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    3381    7.2509689e+05   0.000000e+00   0.000000e+00      0s
+    3381    7.2509689e+05   0.000000e+00   0.000000e+00      0s
+
+Solved with barrier
+Solved in 3381 iterations and 0.44 seconds
+Optimal objective  7.250968908e+05
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 08:59:42
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 227343 rows, 305397 columns and 687483 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 162960 rows and 174186 columns
+Presolve time: 0.39s
+Presolved: 64383 rows, 131211 columns, 262403 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 6.575e+04
+ Factor NZ  : 8.958e+05 (roughly 90 MBytes of memory)
+ Factor Ops : 1.607e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.56734606e+05  1.97826487e+02  4.58e+02 4.16e-17  2.99e+01     0s
+   1   7.15954265e+05  1.22409596e+03  1.87e+02 5.55e-17  5.46e+00     1s
+   2   1.57955784e+05  2.81225862e+03  3.64e+01 8.59e-14  1.18e+00     1s
+   3   9.93330066e+04  5.29301887e+03  2.23e+01 1.88e-15  7.19e-01     1s
+   4   7.20546953e+04  7.40033334e+03  1.56e+01 6.97e-14  4.95e-01     1s
+   5   3.37256539e+04  8.51519676e+03  5.69e+00 1.52e-13  1.93e-01     1s
+   6   2.41640036e+04  9.57174367e+03  3.33e+00 1.40e-13  1.12e-01     1s
+   7   1.84804638e+04  1.01942835e+04  1.82e+00 5.12e-13  6.37e-02     1s
+   8   1.62805810e+04  1.08906895e+04  1.23e+00 2.77e-13  4.15e-02     1s
+   9   1.53737275e+04  1.11182229e+04  9.73e-01 4.58e-13  3.28e-02     1s
+  10   1.40597507e+04  1.13475752e+04  6.36e-01 1.69e-13  2.09e-02     1s
+  11   1.29015370e+04  1.14798090e+04  3.25e-01 2.14e-13  1.10e-02     1s
+  12   1.23876807e+04  1.15987172e+04  1.81e-01 1.32e-12  6.08e-03     1s
+  13   1.20574567e+04  1.16378214e+04  8.46e-02 1.01e-12  3.23e-03     1s
+  14   1.19316804e+04  1.16687084e+04  4.75e-02 4.10e-13  2.02e-03     1s
+  15   1.18523464e+04  1.17020328e+04  2.56e-02 7.02e-13  1.16e-03     1s
+  16   1.18035353e+04  1.17341449e+04  1.29e-02 7.17e-13  5.34e-04     1s
+  17   1.17759140e+04  1.17394010e+04  6.53e-03 5.12e-13  2.81e-04     1s
+  18   1.17620242e+04  1.17448448e+04  3.25e-03 6.48e-14  1.32e-04     2s
+  19   1.17561833e+04  1.17457376e+04  1.96e-03 6.08e-13  8.04e-05     2s
+  20   1.17469679e+04  1.17462851e+04  6.55e-05 5.29e-13  5.23e-06     2s
+  21   1.17464049e+04  1.17464022e+04  4.15e-09 1.49e-13  2.06e-08     2s
+  22   1.17464030e+04  1.17464030e+04  4.55e-10 3.54e-15  3.53e-11     2s
+
+Barrier solved model in 22 iterations and 1.81 seconds
+Optimal objective 1.17464030e+04
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.0919043e-13                 2s
+
+       3 PPushes remaining with PInf 0.0000000e+00                 2s
+       0 PPushes remaining with PInf 0.0000000e+00                 2s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.0919043e-13      2s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   22806    1.1746403e+04   0.000000e+00   0.000000e+00      2s
+   22806    1.1746403e+04   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 22806 iterations and 2.26 seconds
+Optimal objective  1.174640300e+04
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 09:00:19
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 227523 rows, 305637 columns and 688023 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-04, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 2e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 163147 rows and 174367 columns
+Presolve time: 0.38s
+Presolved: 64376 rows, 131270 columns, 262461 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 6.574e+04
+ Factor NZ  : 8.958e+05 (roughly 90 MBytes of memory)
+ Factor Ops : 1.607e+07 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.36441014e+05  1.42718510e+02  2.57e+02 5.55e-17  1.68e+01     0s
+   1   3.50498585e+05  3.05229586e+02  3.59e+01 6.94e-17  2.67e+00     1s
+   2   4.98558106e+04  5.52413286e+02  4.67e+00 2.33e-15  3.76e-01     1s
+   3   1.98823343e+04  1.10470137e+03  1.60e+00 1.39e-15  1.43e-01     1s
+   4   1.27441686e+04  1.65676754e+03  9.38e-01 2.44e-15  8.46e-02     1s
+   5   9.43269792e+03  2.08005720e+03  6.24e-01 7.11e-15  5.62e-02     1s
+   6   6.99264535e+03  2.28818628e+03  3.90e-01 7.55e-15  3.60e-02     1s
+   7   6.16159495e+03  2.43859082e+03  3.14e-01 9.33e-15  2.85e-02     1s
+   8   5.39311232e+03  2.51777560e+03  2.40e-01 1.78e-14  2.20e-02     1s
+   9   4.49837837e+03  2.55331717e+03  1.58e-01 1.87e-14  1.49e-02     1s
+  10   3.41469471e+03  2.64003127e+03  5.77e-02 2.64e-14  5.95e-03     1s
+  11   2.97246397e+03  2.72180434e+03  1.69e-02 3.73e-14  1.93e-03     1s
+  12   2.85927584e+03  2.74422740e+03  7.48e-03 3.29e-14  8.84e-04     1s
+  13   2.82091168e+03  2.75352336e+03  4.08e-03 3.29e-14  5.18e-04     1s
+  14   2.80182184e+03  2.76079414e+03  2.38e-03 2.58e-14  3.15e-04     1s
+  15   2.78173826e+03  2.76579200e+03  6.88e-04 4.88e-14  1.22e-04     1s
+  16   2.77347151e+03  2.76917786e+03  9.95e-05 2.40e-14  3.28e-05     1s
+  17   2.77238499e+03  2.77102190e+03  3.07e-05 3.11e-14  1.04e-05     1s
+  18   2.77198992e+03  2.77127102e+03  1.03e-05 1.87e-14  5.49e-06     1s
+  19   2.77185747e+03  2.77154810e+03  4.58e-06 2.13e-14  2.36e-06     1s
+  20   2.77175389e+03  2.77170748e+03  4.38e-07 3.38e-14  3.54e-07     1s
+  21   2.77173426e+03  2.77173171e+03  2.17e-07 1.78e-14  1.94e-08     1s
+  22   2.77173270e+03  2.77173269e+03  7.08e-09 7.99e-15  3.55e-11     1s
+
+Barrier solved model in 22 iterations and 1.38 seconds
+Optimal objective 2.77173270e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 1.2784218e-13                 2s
+
+       1 PPushes remaining with PInf 0.0000000e+00                 2s
+       0 PPushes remaining with PInf 0.0000000e+00                 2s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.2784218e-13      2s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   24865    2.7717327e+03   0.000000e+00   0.000000e+00      2s
+   24865    2.7717327e+03   0.000000e+00   0.000000e+00      2s
+
+Solved with barrier
+Solved in 24865 iterations and 1.80 seconds
+Optimal objective  2.771732693e+03
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 11:06:56
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 126792 rows, 169054 columns and 380370 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-03, 2e+03]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 99331 rows and 115032 columns
+Presolve time: 0.32s
+Presolved: 27461 rows, 54022 columns, 108039 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 2.746e+04
+ Factor NZ  : 4.138e+05 (roughly 36 MBytes of memory)
+ Factor Ops : 8.226e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.64418340e+07  4.35352014e+04  1.36e+03 1.05e-02  1.18e+03     0s
+   1   8.06090690e+06  1.28658259e+05  8.71e+01 2.68e-14  1.43e+02     0s
+   2   1.12598176e+06  3.45327348e+05  6.06e+00 1.41e-13  1.42e+01     0s
+   3   6.18541893e+05  5.53913577e+05  2.90e-01 2.95e-13  1.18e+00     0s
+   4   5.89483529e+05  5.86492511e+05  1.35e-02 1.86e-13  5.47e-02     0s
+   5   5.87285843e+05  5.87269199e+05  6.40e-06 2.00e-13  3.08e-04     0s
+   6   5.87275734e+05  5.87275733e+05  5.84e-11 1.85e-13  5.89e-10     0s
+
+Barrier solved model in 6 iterations and 0.47 seconds
+Optimal objective 5.87275734e+05
+
+Crossover log...
+
+       0 DPushes remaining with DInf 2.0917712e-12                 1s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.0917712e-12      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   14254    5.8727573e+05   0.000000e+00   0.000000e+00      1s
+   14254    5.8727573e+05   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 14254 iterations and 0.62 seconds
+Optimal objective  5.872757335e+05
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 11:08:37
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 94219 rows, 143171 columns and 324677 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [7e-06, 4e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-03, 2e+03]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 75238 rows and 84194 columns
+Presolve time: 0.30s
+Presolved: 18981 rows, 58977 columns, 117949 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.950e+04
+ Factor NZ  : 2.636e+05 (roughly 33 MBytes of memory)
+ Factor Ops : 4.261e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.77893059e+06 -9.83834534e+02  2.84e+02 2.34e-04  6.75e+01     0s
+   1   5.26856917e+05  7.70601352e+02  3.20e+01 1.43e-02  1.11e+01     0s
+   2   5.83316124e+04  1.81062729e+03  1.59e+00 1.40e-04  9.75e-01     0s
+   3   1.72576925e+04  4.07763139e+03  2.87e-01 3.59e-05  2.25e-01     0s
+   4   9.80159705e+03  5.20297311e+03  8.47e-02 1.32e-05  7.82e-02     0s
+   5   7.80148849e+03  5.62549875e+03  3.90e-02 5.10e-06  3.70e-02     0s
+   6   6.80619025e+03  5.72645800e+03  1.71e-02 3.34e-06  1.84e-02     0s
+   7   6.40448363e+03  5.83495767e+03  8.19e-03 1.72e-06  9.68e-03     0s
+   8   6.22752528e+03  5.90960122e+03  4.02e-03 7.96e-07  5.40e-03     0s
+   9   6.10910761e+03  5.95944786e+03  1.62e-03 3.38e-07  2.54e-03     0s
+  10   6.06102786e+03  5.98749343e+03  6.69e-04 1.45e-07  1.25e-03     1s
+  11   6.03785375e+03  6.00367643e+03  2.53e-04 5.70e-08  5.81e-04     1s
+  12   6.02977787e+03  6.01304573e+03  1.14e-04 1.55e-08  2.85e-04     1s
+  13   6.02578044e+03  6.01615062e+03  5.58e-05 5.16e-09  1.64e-04     1s
+  14   6.02348683e+03  6.01899022e+03  2.45e-05 2.41e-15  7.65e-05     1s
+  15   6.02243016e+03  6.01993019e+03  1.15e-05 2.33e-15  4.25e-05     1s
+  16   6.02161399e+03  6.02122925e+03  1.12e-06 1.89e-15  6.54e-06     1s
+  17   6.02149415e+03  6.02141975e+03  2.27e-07 1.80e-15  1.26e-06     1s
+  18   6.02145979e+03  6.02145715e+03  1.67e-10 1.78e-15  4.50e-08     1s
+  19   6.02145937e+03  6.02145935e+03  7.29e-12 1.72e-15  3.65e-10     1s
+
+Barrier solved model in 19 iterations and 0.64 seconds
+Optimal objective 6.02145937e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 7.7521323e-14                 1s
+
+      53 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 7.7521323e-14      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    7757    6.0214594e+03   0.000000e+00   0.000000e+00      1s
+    7757    6.0214594e+03   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 7757 iterations and 0.77 seconds
+Optimal objective  6.021459362e+03
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 11:08:52
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 94447 rows, 143475 columns and 325361 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [7e-06, 4e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-03, 1e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 75463 rows and 84415 columns
+Presolve time: 0.19s
+Presolved: 18984 rows, 59060 columns, 118039 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 2.950e+04
+ Factor NZ  : 2.633e+05 (roughly 33 MBytes of memory)
+ Factor Ops : 4.242e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.04237073e+05 -3.21583226e+02  4.69e+01 4.36e-03  1.19e+01     0s
+   1   7.90578291e+04  1.15583168e+02  5.86e+00 2.22e-02  1.80e+00     0s
+   2   1.63087777e+04  3.47525156e+02  7.76e-01 1.58e-03  2.83e-01     0s
+   3   6.17501383e+03  5.62903429e+02  2.55e-01 3.77e-04  9.65e-02     0s
+   4   2.01795499e+03  7.63047597e+02  4.40e-02 1.14e-04  2.14e-02     0s
+   5   1.51328797e+03  9.04644709e+02  1.99e-02 4.36e-05  1.03e-02     0s
+   6   1.28911530e+03  9.65533241e+02  1.07e-02 1.80e-05  5.49e-03     0s
+   7   1.13770355e+03  1.00409777e+03  3.97e-03 6.12e-06  2.27e-03     0s
+   8   1.07945653e+03  1.01732084e+03  1.64e-03 3.15e-06  1.05e-03     0s
+   9   1.05348349e+03  1.02963040e+03  5.80e-04 5.80e-07  4.04e-04     0s
+  10   1.04052455e+03  1.03446189e+03  1.49e-04 2.22e-15  1.03e-04     0s
+  11   1.03754578e+03  1.03514896e+03  5.30e-05 1.55e-15  4.06e-05     0s
+  12   1.03630829e+03  1.03531457e+03  2.00e-05 1.11e-15  1.68e-05     0s
+  13   1.03570923e+03  1.03539376e+03  4.70e-06 1.33e-15  5.35e-06     0s
+  14   1.03553276e+03  1.03544699e+03  1.27e-06 8.88e-16  1.45e-06     0s
+  15   1.03548765e+03  1.03545860e+03  4.47e-07 6.66e-16  4.92e-07     1s
+  16   1.03546256e+03  1.03546238e+03  5.91e-08 1.11e-15  2.90e-09     1s
+  17   1.03546244e+03  1.03546244e+03  5.13e-09 8.88e-16  9.26e-12     1s
+
+Barrier solved model in 17 iterations and 0.55 seconds
+Optimal objective 1.03546244e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 6.2588823e-14                 1s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2588823e-14      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    8052    1.0354624e+03   0.000000e+00   0.000000e+00      1s
+    8052    1.0354624e+03   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 8052 iterations and 0.67 seconds
+Optimal objective  1.035462440e+03
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 11:11:37
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 126792 rows, 169054 columns and 380370 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-03, 1e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-03, 2e+03]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 99328 rows and 115026 columns
+Presolve time: 0.25s
+Presolved: 27464 rows, 54028 columns, 108051 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 2.746e+04
+ Factor NZ  : 4.138e+05 (roughly 36 MBytes of memory)
+ Factor Ops : 8.226e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.64455803e+07  4.35308304e+04  1.36e+03 1.05e-02  1.18e+03     0s
+   1   8.06199859e+06  1.28653417e+05  8.71e+01 2.84e-14  1.43e+02     0s
+   2   1.12602747e+06  3.45313312e+05  6.06e+00 1.34e-13  1.42e+01     0s
+   3   6.18533592e+05  5.53898060e+05  2.89e-01 2.53e-13  1.18e+00     0s
+   4   5.89482913e+05  5.86491077e+05  1.35e-02 1.49e-13  5.47e-02     0s
+   5   5.87284780e+05  5.87268113e+05  6.41e-06 1.63e-13  3.08e-04     0s
+   6   5.87274655e+05  5.87274655e+05  5.49e-11 1.88e-13  5.94e-10     0s
+
+Barrier solved model in 6 iterations and 0.43 seconds
+Optimal objective 5.87274655e+05
+
+Crossover log...
+
+       0 DPushes remaining with DInf 2.3876456e-12                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.3876456e-12      0s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   14254    5.8727466e+05   0.000000e+00   0.000000e+00      1s
+   14254    5.8727466e+05   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 14254 iterations and 0.59 seconds
+Optimal objective  5.872746550e+05
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 11:13:17
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 94219 rows, 143171 columns and 324677 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [7e-06, 4e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-03, 2e+03]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 75238 rows and 84194 columns
+Presolve time: 0.18s
+Presolved: 18981 rows, 58977 columns, 117949 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 2.950e+04
+ Factor NZ  : 2.636e+05 (roughly 33 MBytes of memory)
+ Factor Ops : 4.261e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.77905743e+06 -9.83869162e+02  2.84e+02 2.34e-04  6.75e+01     0s
+   1   5.26885196e+05  7.70752126e+02  3.20e+01 1.43e-02  1.11e+01     0s
+   2   5.83391787e+04  1.81311358e+03  1.59e+00 1.34e-04  9.75e-01     0s
+   3   1.72079840e+04  4.08467979e+03  2.86e-01 3.13e-05  2.24e-01     0s
+   4   9.81731444e+03  5.20831462e+03  8.50e-02 1.15e-05  7.84e-02     0s
+   5   7.81417996e+03  5.63209406e+03  3.93e-02 4.37e-06  3.71e-02     0s
+   6   6.83931180e+03  5.73354336e+03  1.77e-02 2.80e-06  1.88e-02     0s
+   7   6.44288133e+03  5.85361532e+03  8.92e-03 1.24e-06  1.00e-02     0s
+   8   6.24156367e+03  5.92366371e+03  4.49e-03 5.17e-07  5.40e-03     0s
+   9   6.13532214e+03  5.97074388e+03  2.20e-03 1.68e-07  2.80e-03     0s
+  10   6.08148001e+03  5.99681434e+03  1.03e-03 5.13e-08  1.44e-03     0s
+  11   6.04760117e+03  6.01223455e+03  3.58e-04 2.36e-15  6.01e-04     0s
+  12   6.03858119e+03  6.02045216e+03  1.78e-04 2.16e-15  3.08e-04     0s
+  13   6.03323397e+03  6.02362414e+03  8.57e-05 2.50e-15  1.63e-04     0s
+  14   6.03104053e+03  6.02601318e+03  4.72e-05 2.28e-15  8.54e-05     0s
+  15   6.02948715e+03  6.02673884e+03  2.39e-05 2.50e-15  4.67e-05     0s
+  16   6.02801700e+03  6.02758853e+03  1.84e-06 1.89e-15  7.29e-06     0s
+  17   6.02790641e+03  6.02781989e+03  3.68e-07 1.89e-15  1.47e-06     0s
+  18   6.02787194e+03  6.02786762e+03  2.55e-09 1.89e-15  7.34e-08     1s
+  19   6.02787120e+03  6.02787118e+03  7.13e-12 1.72e-15  4.50e-10     1s
+
+Barrier solved model in 19 iterations and 0.52 seconds
+Optimal objective 6.02787120e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 7.3524520e-14                 1s
+
+      80 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 7.3524520e-14      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    7792    6.0278712e+03   0.000000e+00   0.000000e+00      1s
+    7792    6.0278712e+03   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 7792 iterations and 0.68 seconds
+Optimal objective  6.027871184e+03
+
+Gurobi 7.0.2 (win64) logging started 09/13/18 11:13:33
+
+Changed value of parameter logfile to C:\Alles\Sciebo\Python\HyInfraGis\HyInfraGis\workflow\GurobiLog.txt
+   Prev: gurobi.log  Default: 
+Changed value of parameter threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter timeLimit to 2000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 94447 rows, 143475 columns and 325361 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [7e-06, 4e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e-03, 1e+02]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 75463 rows and 84415 columns
+Presolve time: 0.19s
+Presolved: 18984 rows, 59060 columns, 118039 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.950e+04
+ Factor NZ  : 2.633e+05 (roughly 33 MBytes of memory)
+ Factor Ops : 4.242e+06 (less than 1 second per iteration)
+ Threads    : 5
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.04252348e+05 -3.21590478e+02  4.69e+01 4.36e-03  1.19e+01     0s
+   1   7.90289820e+04  1.15634161e+02  5.84e+00 2.22e-02  1.80e+00     0s
+   2   1.62205704e+04  3.47605790e+02  7.68e-01 1.57e-03  2.82e-01     0s
+   3   6.18127956e+03  5.63623404e+02  2.54e-01 3.78e-04  9.66e-02     0s
+   4   2.01584739e+03  7.63517030e+02  4.37e-02 1.15e-04  2.13e-02     0s
+   5   1.51961969e+03  9.05203717e+02  2.01e-02 4.39e-05  1.04e-02     0s
+   6   1.29031651e+03  9.65980545e+02  1.06e-02 1.81e-05  5.50e-03     0s
+   7   1.13842455e+03  1.00477096e+03  3.95e-03 6.09e-06  2.27e-03     0s
+   8   1.08041342e+03  1.01837065e+03  1.64e-03 3.05e-06  1.05e-03     0s
+   9   1.05400540e+03  1.03058330e+03  5.73e-04 5.21e-07  3.97e-04     0s
+  10   1.03861398e+03  1.03520367e+03  6.41e-05 1.78e-15  5.78e-05     0s
+  11   1.03660042e+03  1.03587090e+03  1.02e-05 1.78e-15  1.24e-05     0s
+  12   1.03636748e+03  1.03601044e+03  4.95e-06 1.11e-15  6.05e-06     0s
+  13   1.03618551e+03  1.03605834e+03  1.23e-06 1.55e-15  2.16e-06     0s
+  14   1.03614359e+03  1.03611511e+03  2.49e-07 1.11e-15  4.83e-07     0s
+  15   1.03612855e+03  1.03612507e+03  4.38e-08 8.88e-16  5.90e-08     0s
+  16   1.03612664e+03  1.03612662e+03  1.60e-08 8.88e-16  3.14e-10     0s
+  17   1.03612662e+03  1.03612662e+03  1.04e-10 8.88e-16  5.79e-13     1s
+
+Barrier solved model in 17 iterations and 0.51 seconds
+Optimal objective 1.03612662e+03
+
+Crossover log...
+
+       0 DPushes remaining with DInf 6.1367578e-14                 1s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.1367578e-14      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    8038    1.0361266e+03   0.000000e+00   0.000000e+00      1s
+    8038    1.0361266e+03   0.000000e+00   0.000000e+00      1s
+
+Solved with barrier
+Solved in 8038 iterations and 0.64 seconds
+Optimal objective  1.036126624e+03

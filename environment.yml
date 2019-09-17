@@ -1,0 +1,22 @@
+name: him
+channels:
+  - conda-forge
+  - bryanwweber
+dependencies:
+  - olefile
+  - python=3.6
+  - conda-forge::geopandas
+  - bryanwweber::coolprop
+  - conda-forge::pyomo
+  - conda-forge::jupyter
+  - matplotlib
+  - networkx=1
+  - xlsxwriter
+  - pillow
+  - xlrd
+  - openpyxl
+  - pip
+  - descartes
+  - scikit-learn
+  - pip:
+    - .\.
