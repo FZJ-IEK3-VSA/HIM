@@ -18,6 +18,10 @@ and install the required Python environment via
 
 	conda env create -f environment.yml 
 
+## Examples
+
+A number of [**examples**](apps/) shows the capabilities of HIM.
+
 ## License
 
 MIT License
