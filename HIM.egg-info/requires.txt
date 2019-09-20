@@ -1,8 +1,0 @@
-CoolProp
-geopandas
-jupyter
-networkx<2.0
-openpyxl
-Pyomo
-xlrd
-XlsxWriter
