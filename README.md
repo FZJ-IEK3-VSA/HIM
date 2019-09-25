@@ -22,11 +22,13 @@ To determine the optimal pipeline design, a mathematical optimization solver is 
 
 ## Examples
 
-A number of [**examples**](apps/) shows the capabilities of HIM. Either for [abstract cost analyses](apps/Example%20-%20Abstract%20analysis%20without%20geoferenced%20locations.ipynb) 
-![Supply chain cost comparison](apps/results/FigureComparison.png)
+A number of [**examples**](apps/) shows the capabilities of HIM. Either for [abstract costs analyses](apps/Example%20-%20Abstract%20analysis%20without%20geoferenced%20locations.ipynb) 
 
+<a href="apps/Example%20-%20Abstract%20analysis%20without%20geoferenced%20locations.ipynb"><img src="apps/results/FigureComparison.png" alt="Supply chain cost comparison" width="400px"></a> 
+ 
 or for [exact infrastructure design](apps/Example%20Hydrogen%20Supply%20Chain%20Cost%20Generation.ipynb) 
 ![Infrastructure design](apps/results/SupplyChain.png)
+<a href="apps/Example%20Hydrogen%20Supply%20Chain%20Cost%20Generation.ipynb"><img src="apps/results/SupplyChain.png" alt="Infrastructure design" width="400px"></a> 
 
 
 ## License
