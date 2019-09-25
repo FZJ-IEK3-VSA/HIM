@@ -11,6 +11,7 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.patches as mpatches
 import numpy as np
+import os
 import xlsxwriter
 import matplotlib.image as mpimg
 from descartes.patch import PolygonPatch
@@ -62,9 +63,7 @@ def trisurfplotMin(
         zmax=8,
         zmin=5,
         figSize=0,
-        saveFig=False,
-        savePath='C:\\Alles\\Sciebo\\Python\\Trunk\\Images\\default\\',
-        saveName='FigureComparison'):
+        savePath=None):
     '''
     Function for plotting the costs as surface based on minimal costs + lines
 
@@ -146,9 +145,6 @@ def trisurfplotMin(
     ax.set_zlabel(r'Wasserstoffkosten [EUR/kg$_{H2}$]', labelpad=-2, size=11)
     ax.set_zlim(zmin, ymax)
     proj3d.persp_transformation = orthogonalProj
-#    ax.xaxis.set_major_formatter(FormatStrFormatter(r'%d $\frac{t}{day}$'))
-#    ax.yaxis.set_major_formatter(FormatStrFormatter('%d km'))
-#    ax.zaxis.set_major_formatter(FormatStrFormatter(r'%d $\frac{€}{kg}$'))
 
 
 
@@ -157,31 +153,19 @@ def trisurfplotMin(
     ax.zaxis.set_pane_color((0, 91 / 255, 130 / 255, 0.1))
     ax.yaxis.set_pane_color((0, 91 / 255, 130 / 255, 0.1))
 
-#    ax.w_xaxis._axinfo.update({'grid': {'color': (0, 0, 0, 0.9)}})
-#    ax.w_yaxis._axinfo.update({'grid': {'color': (0, 0, 0, 0.9)}})
-#    ax.w_zaxis._axinfo.update({'grid': {'color': (0, 0, 0, 0.9)}})
 
     ax.w_xaxis.gridlines.set_lw(0.5)
     ax.w_yaxis.gridlines.set_lw(0.5)
     ax.w_zaxis.gridlines.set_lw(0.5)
-
-    #fig.suptitle('Wasserstoffgesamtkosten nach Elektrolyseproduktion')
 
     # Insert Colorbar
     cbaxes = fig.add_axes([0.05, 0.25, 0.02, 0.5])
     cb = plt.colorbar(surf, cax=cbaxes)#, format=FormatStrFormatter(r'%.1f $\frac{€}{kg}$'))
     cb.set_label("Wasserstoffkosten [EUR/kg$_{H2}$]", labelpad=-50, size=11)
     plt.tight_layout()
-#    
-    if saveFig==True:
-        
-        plt.savefig(savePath+saveName)
-        plt.savefig(savePath+saveName+".svg")
-#        png1=BytesIO()
-#        fig.savefig(png1,format='png')
-#        png2 = Image.open(png1)
-#        png2.save(savePath+saveName+'.tiff')
-#        png1.close()
+
+    if savePath:
+        plt.savefig(savePath)
     plt.show()
 #%%
 

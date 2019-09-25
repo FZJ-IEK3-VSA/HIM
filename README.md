@@ -18,9 +18,16 @@ and install the required Python environment via
 
 	conda env create -f environment.yml 
 
+To determine the optimal pipeline design, a mathematical optimization solver is required. [Gurobi](https://www.gurobi.com/) is used as default solver, but other optimization solvers can be used as well.
+
 ## Examples
 
-A number of [**examples**](apps/) shows the capabilities of HIM.
+A number of [**examples**](apps/) shows the capabilities of HIM. Either for [abstract cost analyses](apps/Example%20-%20Abstract%20analysis%20without%20geoferenced%20locations.ipynb) 
+![Supply chain cost comparison](apps/results/FigureComparison.png)
+
+or for [exact infrastructure design](apps/Example%20Hydrogen%20Supply%20Chain%20Cost%20Generation.ipynb) 
+![Infrastructure design](apps/results/SupplyChain.png)
+
 
 ## License
 
